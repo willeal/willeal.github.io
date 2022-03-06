@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;500&display=swap");
+
+body {
+  background-color: #231f29;
+}
+
+li {
+  list-style: none;
+}
+
+#mostlistened,
+#about {
+  background-color: #26232f;
+}
+
+h1 {
+  font-family: "Sora", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.25rem;
+}
+p {
+  font-family: "Epilogue", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.05rem;
+}
+
+.bg-image-full {
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-size: cover;
+}
+
+header {
+  height: 75vh;
+  filter: grayscale(100%);
+  opacity: 0.3;
+}
+
+#overall {
+  height: auto;
+  background-color: #231f29;
+}
+
+h1 {
+  color: #fff;
+}
+
+#description,
+#overall-list {
+  color: #c6c6c6;
+}
+
+.navbar {
+  background-color: #26232f;
+  opacity: 0.95;
+}
+
+.navbar-brand {
+  font-family: "Sora", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+  color: #fff;
+}
+
+.navbar-nav {
+  font-family: "Epilogue", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.14rem;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: #8fdbd1 !important;
+}
+
+.navbar-brand:hover {
+  color: #8fdbd1 !important;
+}
+
+#tables {
+  padding-right: 0.5rem;
+  display: inline-flex;
+}
+
+/*
+#textcontent,
+#bigtextcontent {
+  display: block;
+}*/
+
+#title,
+#value,
+#title2,
+#value2,
+#titleS,
+#valueS,
+#plays {
+  padding-top: 0.5rem;
+  padding-right: 0.55rem;
+  padding-bottom: 0.4rem;
+  padding-left: 0.55rem;
+  font-family: "Sora", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+}
+
+#title,
+#title2 {
+  background-color: #31283e;
+  color: #82c6bd;
+}
+
+#value,
+#value2 {
+  background-color: #82c6bd;
+  color: #31283e;
+}
+
+#titleS {
+  background-color: #31283e;
+  color: #7d7dcf;
+}
+
+#valueS {
+  background-color: #7d7dcf;
+  color: #31283e;
+}
+
+img {
+  object-fit: cover;
+  width: 4.45rem;
+  height: 4.45rem;
+}
+
+#plays {
+  text-align: center;
+  padding-top: 1.5rem;
+  width: auto;
+  height: 4.45rem;
+  background-color: #2c2438;
+  color: #7d7dcf;
+  font-family: "Sora", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+}
+
+#overall,
+#mostlistened,
+#newtolibrary,
+#about {
+  padding-top: 1.1rem;
+  padding-bottom: 1.1rem;
+}
