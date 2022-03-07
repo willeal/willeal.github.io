@@ -111,6 +111,7 @@ h1 {
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 0.1rem;
+  white-space: nowrap;
 }
 
 #title,
