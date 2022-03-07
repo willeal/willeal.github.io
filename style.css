@@ -118,7 +118,7 @@ h1 {
   font-weight: 400;
   letter-spacing: 0.1rem;
   white-space: nowrap;
-  max-width: 275px;
+  max-width: 250px;
   overflow: auto;
   -ms-overflow-style: none;
   scrollbar-width: none;
