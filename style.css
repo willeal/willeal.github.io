@@ -22,13 +22,13 @@ li {
 
 h1 {
   font-family: "Sora", sans-serif;
-  font-size: 14px;
+  font-size: 0.75rem;
   font-weight: 400;
   letter-spacing: 0.25rem;
 }
 p {
   font-family: "Epilogue", sans-serif;
-  font-size: 14px;
+  font-size: 0.75rem;
   font-weight: 400;
   letter-spacing: 0.05rem;
 }
@@ -74,7 +74,7 @@ h1 {
 
 .navbar-nav {
   font-family: "Epilogue", sans-serif;
-  font-size: 14px;
+  font-size: 0.75rem;
   font-weight: 400;
   letter-spacing: 0.14rem;
 }
@@ -109,14 +109,14 @@ h1 {
   padding-bottom: 0.4rem;
   padding-left: 0.55rem;
   font-family: "Sora", sans-serif;
-  font-size: 14px;
+  font-size: 0.75rem;
   font-weight: 400;
   letter-spacing: 0.1rem;
-  max-width: 230px;
-  white-space: nowrap;
-  overflow: auto;
+  text-overflow: ellipsis;
+  overflow: hidden;
   -ms-overflow-style: none;
   scrollbar-width: none;
+  max-width: 16rem;
 }
 
 #title,
@@ -141,23 +141,31 @@ h1 {
   color: #31283e;
 }
 
+#title2,
+#value2,
+#titleS,
+#valueS {
+  white-space: nowrap;
+}
+
 img {
   object-fit: cover;
-  width: 4.45rem;
-  height: 4.45rem;
+  width: 4.05rem;
+  height: 4.05rem;
 }
 
 #plays {
   text-align: center;
-  padding-top: 1.65rem;
-  width: auto;
-  height: 4.45rem;
+  padding-top: 1rem;
+  width: 4.05rem;
+  height: 4.05rem;
   background-color: #2c2438;
   color: #7d7dcf;
   font-family: "Sora", sans-serif;
-  font-size: 14px;
+  font-size: 0.75rem;
   font-weight: 400;
   letter-spacing: 0.1rem;
+  line-break: loose;
 }
 
 #overall,
